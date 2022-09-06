@@ -12,7 +12,7 @@ for i in range(len(df_python)):
     name = df_python.iloc[i, 0]
     name_format = name.replace(" ", "_")
 
-    folder = os.path.join("C:\\Users\\marce\\Desktop\\Python\\Teste",                          name_format)
+    folder = os.path.join("C:\\Users\Marcelo Junior\\OneDrive - Instituto Germinare\\Área de Trabalho\\CursoPython\\gtech_python_controle",name_format)
 
     # print('Pasta: ', folder)
     os.mkdir(folder)
